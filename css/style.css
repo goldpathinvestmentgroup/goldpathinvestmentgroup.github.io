@@ -962,6 +962,66 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+/*--------------------------------------------------------------
+# team Section
+--------------------------------------------------------------*/
+
+#team {
+  padding: 60px 0;
+}
+
+#team .hotel {
+  border: 1px solid #e0e5fa;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+#team .hotel:hover .hotel-img img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#team .hotel-img {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+#team .hotel-img img {
+  transition: 0.3s ease-in-out;
+}
+
+#team h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding: 0 20px;
+}
+
+#team a {
+  color: #152b79;
+}
+
+#team a:hover {
+  color: #f8d154;
+}
+
+#team .stars {
+  padding: 0 20px;
+  margin-bottom: 5px;
+}
+
+#team .stars i {
+  color: #ffc31d;
+}
+
+#team p {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  color: #060c22;
+  font-style: italic;
+  font-size: 15px;
+}
+
 
 /*--------------------------------------------------------------
 # Hotels Section
@@ -1109,6 +1169,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #supporters img {
   transition: all 0.4s ease-in-out;
 }
+
+/* #ip p{
+  font-family: "Crimson Text";
+} */
 
 /*--------------------------------------------------------------
 # F.A.Q Section
@@ -1426,7 +1490,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-info img {
-  height: 40px;
+  height: 80px;
   margin-bottom: 10px;
 }
 
