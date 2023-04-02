@@ -993,7 +993,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 5px;
-  padding: 0 155px;
+  /* padding: 0 223px; */
+  text-align: center;
 }
 
 #team a {
@@ -1016,7 +1017,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team p {
   padding: 0 20px;
   margin-bottom: 20px;
-  color: #060c22;
+  color: #152b79;
   /* font-style: italic; */
   font-family: "Crimson Text";
   font-size: 18px;
@@ -1372,7 +1373,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #f8d154;
+  color: #0a0f25;
 }
 
 #contact .contact-info address,
